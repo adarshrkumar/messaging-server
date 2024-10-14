@@ -1,0 +1,8 @@
+.create {
+  & li:first-child {
+    &::marker {
+      content: '+';
+      translate: -20px 0;
+    }
+  }
+}
